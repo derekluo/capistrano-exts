@@ -26,10 +26,10 @@ EOD
   s.require_paths = ["lib"]
 
   # Run-time dependencies
-  s.add_dependency('capistrano', '~>2.9.0')
+  s.add_dependency('capistrano', '~> 2.9.0')
   s.add_dependency('capistrano_colors', '~>0.5.5')
   s.add_dependency('i18n', '~>0.6.0')
-  s.add_dependency('activesupport', '~>3.1.0')
+  s.add_dependency('activesupport', '>3.1.0')
 
   # Development dependencies
   s.add_development_dependency('guard', '~>0.6.2')
